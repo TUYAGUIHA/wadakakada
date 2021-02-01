@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: ~(≧▽≦)/~啦啦啦
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: 哇哒咔咔哒
+language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url:  https://tuyaguiha.github.io/
-root: /wdkkdblog/
+url:  https://wusow.com/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -71,6 +71,7 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
@@ -109,4 +110,5 @@ deploy:
     #这里的username填你自己的
     #git@github.com:username/username.github.io.git
     repository: https://github.com/TUYAGUIHA/wdkkdblog.git
+    # repository: https://e.coding.net/tygh/wadablog/master.git
     branch: master

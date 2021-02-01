@@ -50,10 +50,10 @@ sougou_site_verification:
 # Usage(No Icon)  : `Key: /link/`
 # Select your icon name, see: https://fontawesome.com/icons
 menu:
-  home: / || fas fa-home
-  archives: /archives/ || fas fa-folder-open
-  # categories: /categories/ || fas fa-layer-group
-  # tags: /tags/ || fas fa-tags
+  home: / # || fas fa-home
+  # archives: /archives/ || fas fa-folder-open
+  categories: /categories/ # || fas fa-layer-group
+  tags: /tags/ # || fas fa-tags
   # You can add a secondary menu like follow.
   # xxx1: javascript:; || fa(s|r|l|d|b) fa-xxx
 
@@ -75,8 +75,8 @@ menu_settings:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/icons/favicon-16x16.png
-  medium: /images/icons/favicon-32x32.png
+  small: /images/icons/wada-256x256.png
+  medium: /images/icons/wada-256x256.png
   # ! --------------------------------------------------
   # ! If you don't know the following, please ignore it.
   # ! --------------------------------------------------
@@ -138,11 +138,11 @@ header:
   height: 80%
   # Background image of site header.
   bg_image:
-    enable: false
+    enable: true
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url:
+    url: /images/pics/home.jpg 
   # Mask effect of the background image.
   mask:
     enable: false
@@ -217,14 +217,14 @@ footer:
     color: "#ff0000"
   # Hexo link
   powered:
-    enable: true
+    enable: false
     # Whether to show version after Hexo link (e.g. vX.X.X)
-    version: true
+    version: false
   # Theme link
   theme:
-    enable: true
+    enable: false
     # Whether to show version after theme link (e.g. vX.X.X)
-    version: true
+    version: false
   # Beian information for Chinese users, see: http://www.miitbeian.gov.cn/
   beian:
     enable: false
@@ -286,7 +286,7 @@ author:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /images/icons/stun-logo.svg
+    url: /images/icons/wada-256x256.png
     # If true, the avatar would be displayed in a circle.
     rounded: false
     # Opacity of avatar (value: 0 ~ 1)
@@ -295,7 +295,7 @@ author:
     # Optional values: turn | shake
     animation: turn
   # Your favorite motto.
-  motto: hello world
+  motto: 哇哒哒咔哒
 
 # Social links
 # Value before `||` is the target link, value after `||` is the name of FontAwesome icon.
