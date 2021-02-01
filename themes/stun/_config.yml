@@ -75,8 +75,8 @@ menu_settings:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/icons/wada-256x256.png
-  medium: /images/icons/wada-256x256.png
+  small: /images/icons/logo.jpg
+  medium: /images/icons/logo.jpg
   # ! --------------------------------------------------
   # ! If you don't know the following, please ignore it.
   # ! --------------------------------------------------
