@@ -1,11 +1,14 @@
 ---
 title: 建站第一篇，这个博客的由来
-tags: [IT]
-categories: 
-- IT
+urlname: 建站第一篇，这个博客的由来
+tags:
+  - 杂谈
+categories:
+  - 杂谈
 description: 附加一段文章摘要，字数最好在140字以内，会出现在meta的description里面
 top: true
 date: 2021-01-29-001
+abbrlink: 27bfeede
 ---
 
 ## Hexo + github 建立个人博客

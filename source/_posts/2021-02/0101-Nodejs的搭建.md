@@ -1,0 +1,27 @@
+---
+title: Node.js 的搭建
+tags:
+  - 开发工具
+categories: IT
+date: 2021-02-01-001
+abbrlink: 9e212a55
+---
+
+## Mac上的Node.js 安装
+1. 从官网下载[Node.js](https://nodejs.org/en/)
+2. 双击下载的文件，默认选项就好，直接安装
+3. 安装完成之后，在终端中输入`npm -v` 和 `node -v` 可查看版本号
+
+## Mac上的Node.js 环境变量配置
+1. 打开终端，进入全局环境变量配置：`vim .bash_profile`
+2. 输入`i` 窗口左下角显示 `-- INSERT --` 进入编辑模式
+3. 在文件中添加 `export PATH=~/.npm-global/bin:$PATH` 
+4. 按`esc`键，退出编辑模式，输入`:wq` 保存并退出
+5. 输入`source ~/.bash_profile` 刷新环境变量
+
+## npm的操作
+- 升级npm：`npm install -g npm`  
+- 升级至指定版本：`npm -g install npm@6.8.0` 
+---
+## Windows上的Node.js安装
+### 忘了。。。
