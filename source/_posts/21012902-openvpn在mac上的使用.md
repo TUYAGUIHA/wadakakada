@@ -4,7 +4,7 @@ urlname: openvpn在mac上的使用
 tags:
   - 开发工具
 categories: IT
-date: 2021-01-29-001
+date: 2021-01-29
 abbrlink: 6f6fbad6
 ---
 ## 通过修改配置文件，用以适用mac版的openVpn工具
