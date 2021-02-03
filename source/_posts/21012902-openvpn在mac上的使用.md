@@ -8,7 +8,7 @@ date: 2021-01-29-001
 abbrlink: 6f6fbad6
 ---
 ## 通过修改配置文件，用以适用mac版的openVpn工具
-![](/pics/2021-02-openvpn.png)
+![](/pics/21012902/2021-02-openvpn.png)
 <!-- more -->
 1. 下载Tunnelblick
 2. 修改opvn的配置文件
