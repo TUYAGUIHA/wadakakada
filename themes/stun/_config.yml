@@ -75,8 +75,8 @@ menu_settings:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/icons/logo.jpg
-  medium: /images/icons/logo.jpg
+  small: /themespics/logo.jpg
+  medium: /themespics/logo.jpg
   # ! --------------------------------------------------
   # ! If you don't know the following, please ignore it.
   # ! --------------------------------------------------
@@ -142,7 +142,7 @@ header:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /images/pics/home.jpg 
+    url: /themespics/home.jpg
   # Mask effect of the background image.
   mask:
     enable: false
@@ -217,14 +217,14 @@ footer:
     color: "#ff0000"
   # Hexo link
   powered:
-    enable: false
+    enable: true
     # Whether to show version after Hexo link (e.g. vX.X.X)
-    version: false
+    version: true
   # Theme link
   theme:
-    enable: false
+    enable: true
     # Whether to show version after theme link (e.g. vX.X.X)
-    version: false
+    version: true
   # Beian information for Chinese users, see: http://www.miitbeian.gov.cn/
   beian:
     enable: false
@@ -286,7 +286,7 @@ author:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /images/icons/wada-256x256.png
+    url: /themespics/wada-256x256.png
     # If true, the avatar would be displayed in a circle.
     rounded: false
     # Opacity of avatar (value: 0 ~ 1)
